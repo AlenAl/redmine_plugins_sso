@@ -1,0 +1,6 @@
+# 中文配置
+zh:
+  sso_config_http_error : "错误信息：%{value}，请检查Sso plugin配置是否正确。"
+  sso_config_error : "请检查Sso plugin配置是否正确。"
+  sso_registered_info : "cname:%{value},mail:%{value},username:%{value},registerRet:%{value}"
+

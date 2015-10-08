@@ -1,0 +1,12 @@
+<style>
+.ssoul{list-style-type: none;}
+.ssoul li{line-height: 25px}
+.ssoul li span {width: 200px; text-align: right; display: inline-block; padding-right: 5px; font-weight: bold;}
+</style>
+<div class="tab-content" id="tab-content-general">
+	<ul class='ssoul'>
+	 	<li><span>APPID</span><%=text_field_tag 'settings[ssoid]', @settings['ssoid'], :size => "50" %></li>
+	 	<li><span>验证密钥(Token)</span><%=text_field_tag 'settings[secrect]', @settings['secrect'], :size => "50" %></li>
+	  	<li><span>验证地址</span><%=text_field_tag 'settings[ssoUrl]', @settings['ssoUrl'], :size => "50", :value => "http://sso.oa.com:8871/api" %></li>
+	</ul>
+</div>
